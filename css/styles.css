@@ -228,12 +228,12 @@ img{
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 8px;
+    
     width: calc((100% - 72px) / 4);
 }
 
 .features-list-title{
-
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -267,7 +267,7 @@ img{
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 8px;
+    
     padding: 32px 0 32px;
 }
 .team-list-title{
@@ -277,6 +277,8 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px
     
 }
 .team-list-item{
@@ -318,21 +320,20 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .portfolio-card{
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
+    
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
 }
-.portfolio-list-item{
-    margin-bottom: 8px
-}
+
 
 .portfolio-list-item-text {
     font-weight: 400;
