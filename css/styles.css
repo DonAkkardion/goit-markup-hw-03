@@ -165,6 +165,10 @@ img{
 /** ==============HERO================ */
 .hero{
     background: #2e2f42;
+    padding: 188px 0 188px;
+}
+.hero-title{
+    max-width: 496px;
 }
 .hero-wrap{
     margin: 68px ;
@@ -180,11 +184,15 @@ img{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     border-radius: 4px;
     padding: 16px 32px;
-    display: flex;
+    
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
@@ -209,6 +217,7 @@ img{
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .features-list{
     display: flex;
@@ -220,6 +229,7 @@ img{
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
+    width: calc((100% - 72px) / 4);
 }
 
 .features-list-title{
@@ -243,12 +253,14 @@ img{
 .team{
     background: #f4f4fd;
 }
+.team-title{
+    margin-bottom: 72px;
+    text-align: center;
+    margin-bottom: 8px;
+}
 .team-list{
     display: flex;
-    
     gap: 24px;
-    margin-top: 72px;
-
 }
 .card-content{
     display: flex;
@@ -256,7 +268,7 @@ img{
         justify-content: center;
         flex-direction: column;
         gap: 8px;
-    
+    padding: 32px 0 32px;
 }
 .team-list-title{
 
@@ -265,6 +277,7 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
 }
 .team-list-item{
     background-color: #FFFFFF;
@@ -282,15 +295,19 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 /** ============================== */
 
 /** =============PORTFOLIO================= */
+.portfolio-title{
+    margin-bottom: 72px;
+}
 .portfolio-list{
     display: flex;
-    gap: 24px;
+    row-gap: 48px;
     flex-wrap:  wrap;
-    margin-top: 72px;
+    
     
 }
 .portfolio-list-title{
@@ -312,12 +329,16 @@ img{
     border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
 }
+.portfolio-list-item{
+    margin-bottom: 8px
+}
 
 .portfolio-list-item-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
 }
 /** ============================== */
 
@@ -325,6 +346,11 @@ img{
 .footer{
     background: #2e2f42;
     border-bottom: 1px solid #e7e9fc;
+    padding: 100px 0;
+}
+.footer .logo{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-container{
     padding-top: 120px;
@@ -336,7 +362,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 16px;
+    
     width: 264px;
 }
 .logo-white{
